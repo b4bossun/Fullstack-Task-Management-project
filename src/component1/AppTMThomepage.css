@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.homepagediv{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.homepagenavdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1410px;
+    margin-top: 10px;
+    margin-left: 12px;
+    margin-bottom: 100px;
+
+}
+
+.logo{
+    font-size: x-large;
+}
+
+#statbutton{
+    background-color:  rgb(224, 40, 19);
+    border-radius: 5px;
+    border: none;
+    height: 35px;
+    width: 110px;
+    font-size: 10px;
+    font-size: 13px;
+}
+
+#statbutton:hover{
+    cursor: pointer;
+    background-color: rgb(249, 144, 128);
+}
+
+.weeklystat{
+    background-color:  rgb(224, 40, 19);
+}
+
+.monthlystat{
+    background-color:  rgb(224, 40, 19);
+}
+
+.profileicondiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #007bff;
+}
+
+.profileicon{
+    width: 100%;
+    height: auto;
+}
+
+.profile{
+
+}
+
+.taskorganizerdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.homepageinputdiv{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin-bottom: 20px;
+}
+
+#homepageinputspace{
+    height: 35px;
+    width: 400px;
+    border-radius: 5px;
+    border: none;
+}
+
+#inputspace:focus{
+    outline: none;
+}
+
+.inputspace1{
+}
+
+.inputspace2{
+
+}
+
+.createbutton{
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    font-size: 13px;
+    color: white;
+    background-color:  rgb(224, 40, 19);
+
+}
+
+.createbutton:hover{
+    cursor: pointer;
+    background-color: rgb(249, 144, 128);
+}
+
+.taskmanagementdiv{
+    background-color: rgb(249, 144, 128);
+    border-radius: 10px;
+    height: 400px;
+    width: 1000px;
+}
+
+.hbuttonlink{
+    text-decoration: none;
+    color: white;
+}

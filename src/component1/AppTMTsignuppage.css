@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.motherdiv {
+    display: flex;
+    position: absolute; 
+}
+
+.copysigninlogindiv{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-left: 60px;
+    width: 800px;
+
+}
+
+.tmscopy{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.pcopy{
+    font-size: 14px;
+    width: 550px;
+    margin-bottom: 100px;
+
+}
+
+#inputspace{
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    width: 350px;
+    /* margin-left: 150px; */
+    margin-bottom: 5px;
+}
+
+.password{
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    width: 350px;
+    /* margin-left: 150px; */
+    margin-bottom: 35px;
+    
+}
+
+.signupbutton{
+    background-color: rgb(224, 40, 19);
+    border-radius: 5px;
+    border: none;
+    height: 35px;
+    width: 110px;
+    font-size: 10px;
+    /* margin-left: 150px; */
+}
+
+.signupbutton:hover{
+    cursor: pointer;
+    background-color: rgb(249, 144, 128);
+}
+
+.imagediv{
+    margin-top: 120px;
+    margin-right: 70px;
+
+}
+
+.buttonlink{
+    text-decoration: none;
+    color: white;
+}
